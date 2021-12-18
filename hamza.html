@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<title>
+		
+	</title>
+</head>
+<body >
+<div class="sld">
+		<button class="joi"> join</button>
+		<button> login</button>
+		<button class="lan"> language En</button>
+		<i class='bx bx-search-alt-2'></i>
+		<input  id="A" type="text" name="" placeholder="Searsh...">
+		<input  id="B" type="submit" name="" value="Searsh">
+	</div>
+<div class="part1">
+	
+	<img src="c.jpg">
+
+	
+</div>
+<div class="wach">
+	<h2>whaching anime right now</h2>
+	<div class="slid">
+		<img src="aa.png">
+		<img src="aa.jpg">
+		<img src="B.jpg">
+		<img src="D.jpg">
+	</div>
+</div>
+<div class="wach2">
+	
+	<div class="slid">
+		<img src="A.jpg">
+		<img src="yt.jpg">
+		<img src="er.jpg">
+		<img src="aaa.jpg">
+	</div>
+</div>
+<div class="join">
+	
+	<h1>Register<i class='bx bx-x'></i>
+	</h1><br>
+
+ 
+	<div class="inpu">
+		<input type="text" name="" placeholder="name"><br>
+		<input type="email" name="" placeholder="email"> <br>
+		<input type="password" name="" placeholder="password"><br>
+		<input type="password" name="" placeholder="confirm password"><br>
+		<span>if you have acount<a href=""> click here?</a></span>
+		<input id="sub" type="submit" name="" value="join">
+		<h3 style="text-align: center;">Or<br>
+
+      <a href="">  <i class='bx bxl-facebook-circle'></i> facebook</a>
+		 <a href=""><i class='bx bxl-google'></i> google</a>
+		</h3>
+	
+
+	</div>
+
+</div>
+<div class="language lo">
+   <table >
+   	<tr>
+   		<td><a href="">Arabic</a></td>
+   		<td> Ar</td>
+   	</tr>
+   	<tr>	
+   		<td><a href="">English</a></td>
+   		<td> En</td>
+   	</tr>
+   	<tr>	
+   		<td><a href="">Francais</a></td>
+   		<td> Fr</td>
+   	</tr>
+   	
+   </table>
+</div>
+<script type="text/javascript">
+    
+    let hamza = document.querySelector(".join");
+     let joi = document.querySelector(".joi");
+	let menu = document.querySelector(".bx-x");
+   console.log(menu);
+   	joi.addEventListener("click", ()=>{
+     hamza.classList.add("active");
+	});
+	menu.addEventListener("click", ()=>{
+     hamza.classList.remove("active");
+	});
+	 let lan = document.querySelector(".lan");
+     let lang = document.querySelector(".language");
+      
+   	lan.addEventListener("click", ()=>{
+     lang.classList.toggle("lo");
+	});
+</script>
+</body>
+</html>
